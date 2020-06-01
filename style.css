@@ -1,0 +1,79 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	font-family: Sans-Serif;
+	background-color: #e5e9f0;
+}
+
+#container {
+	height: 60%;
+	width: 60%;
+	background-color: #ffffff;
+	border: 2px solid #000000;
+	border-radius: 5%;
+	margin: auto;
+	transform: translateY(35%);
+	overflow: hidden;
+	box-shadow: 0px 0px 10px 10px #adb5bd;
+}
+
+#photo{
+	height: 35%;
+	width: 30%;
+	float: left;
+	overflow: hidden;
+	text-align: center;
+	padding-top: 2%;
+}
+
+#photo > img {
+	float: right;
+}
+
+#name {
+	height: 30%;
+	width: 60%;
+	float: right;
+	margin-top: 2%;
+	overflow: hidden;
+}
+
+#name > h1 {
+	margin: 5%;
+}
+
+#contact{
+	height: 40%;
+	width: 100%;
+	margin: 0;
+	float: left;
+	font-family: Fixed, monospace;
+}
+
+#contact > span{
+	vertical-align: middle;
+}
+
+#contact > img{
+	vertical-align: middle;
+	height: 25px;
+	width: 30px;
+}
+
+#title{
+	height: 14%;
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+
+#description {
+	float: left;
+	padding: 2%;
+}
