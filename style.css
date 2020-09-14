@@ -26,8 +26,8 @@ body{
 
 #header > img {
 	float: left;
-	height: 90%;
-	width: 10%;
+	height: auto;
+	width: 8%;
 	padding: 0.5% 0.5%;
 }
 
@@ -121,13 +121,9 @@ footer{
 	width: 30px;
 }
 
-@media only screen and (max-width: 600px) {
-	/* For tablets: */  
+@media only screen and (max-width: 760px) {
+	/* Responsive */
 	#header {
 		height: 8%;	
-	}
-
-	#header > img {
-		height: auto;
 	}
 }
