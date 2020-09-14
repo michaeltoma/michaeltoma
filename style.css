@@ -120,3 +120,14 @@ footer{
 	height: 25px;
 	width: 30px;
 }
+
+@media only screen and (max-width: 600px) {
+	/* For tablets: */  
+	#header {
+		height: 8%;	
+	}
+
+	#header > img {
+		height: auto;
+	}
+}
