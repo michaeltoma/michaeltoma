@@ -124,6 +124,13 @@ footer{
 @media only screen and (max-width: 760px) {
 	/* Responsive */
 	#header {
-		height: 8%;	
+		height: 4%;	
 	}
+
+
+	footer{
+		height: 5%;
+	}
+
+
 }
